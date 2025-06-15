@@ -196,7 +196,7 @@ export default function Portfolio() {
           <div className="relative">
             <div className="relative z-10">
               <Image
-                src="/giridhar-profile.jpg"
+                src="/2.jpg"
                 alt="Giridhar Reddy Profile Picture"
                 width={600}
                 height={400}
