@@ -198,9 +198,9 @@ export default function Portfolio() {
               <Image
                 src="/2.jpg"
                 alt="Giridhar Reddy Profile Picture"
-                width={600}
-                height={400}
-                className="rounded-2xl shadow-2xl"
+                width={400}
+                height={500}
+                className="rounded-2xl shadow-2xl object-cover w-full max-w-md mx-auto"
               />
             </div>
             <div className="absolute -inset-4 bg-gradient-to-r from-purple-500/20 to-blue-500/20 rounded-2xl blur-xl"></div>
