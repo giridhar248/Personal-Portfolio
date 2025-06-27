@@ -40,7 +40,7 @@ export default function Portfolio() {
   const [selectedBlog, setSelectedBlog] = useState<string | null>(null)
 
   // Password for the protected blog (you can change this)
-  const BLOG_PASSWORD = "fairytale2024"
+  const BLOG_PASSWORD = "annanniya"
 
   useEffect(() => {
     const handleScroll = () => {
