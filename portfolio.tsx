@@ -153,7 +153,7 @@ export default function Portfolio() {
                 </Button>
               </div>
             </div>
-            <p className="text-xs text-gray-500 text-center">Hint: It's related to the blog title 😉</p>
+            <p className="text-xs text-gray-500 text-center">Hint: can be her Name😉</p>
           </div>
         </DialogContent>
       </Dialog>
