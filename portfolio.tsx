@@ -429,68 +429,141 @@ export default function Portfolio() {
             <div className="w-20 h-1 bg-gradient-to-r from-purple-400 to-blue-400 mx-auto rounded-full"></div>
           </div>
           <div className="space-y-8">
+            {/* Software Engineer - Current Role */}
             <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300">
               <CardContent className="p-8">
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-2">R&D Software Development Engineer Intern</h3>
-                    <p className="text-purple-400 font-semibold text-lg mb-1">TejasNetworks</p>
-                    <p className="text-gray-400 mb-4">Bangalore, India</p>
+                    <h3 className="text-2xl font-bold text-white mb-2">Software Engineer</h3>
+                    <p className="text-purple-400 font-semibold text-lg mb-1">Java, Spring Boot, AWS, MySQL, Docker</p>
+                    <p className="text-gray-400 mb-4">May 2024 - Present</p>
                   </div>
                   <div className="flex items-center space-x-2 text-gray-300">
                     <Calendar className="w-5 h-5" />
-                    <span>10/2022 – 07/2023</span>
+                    <span>May 2024 – Present</span>
                   </div>
                 </div>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Implemented OSPF Database Limit and Sham Links in C++, improving routing efficiency and reducing
-                      network congestion by 25%.
+                      Designed and developed Spring Boot microservices for inventory and billing modules, implementing RESTful APIs, Spring Security, and JWT authentication to support secure real-time vendor transactions and role-based access control.
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Developed CLI-based tools for network configuration and troubleshooting, streamlining debugging
-                      workflows and enhancing system reliability.
+                      Built responsive UI components using React, Angular 8, Bootstrap, JavaScript, and HTML/CSS, improving vendor experience and reducing manual processes by over 50%.
+                    </span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      Enhanced client-side logic with React Hooks and implemented Axios-based API integrations, enabling faster and more reliable communication with backend microservices.
+                    </span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      Engineered scalable backend architecture using MySQL, JDBC, optimized indexing, and integrated AWS-managed services including DynamoDB, SQS, and Lambda, improving throughput and reducing latency across distributed components.
+                    </span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      Deployed containerized microservices using Docker, AWS ECS, and Azure Kubernetes Service (AKS), validating cross-cloud workloads and increasing test reliability through JUnit/Mockito TDD and automated CI/CD pipelines.
                     </span>
                   </li>
                 </ul>
               </CardContent>
             </Card>
 
+            {/* Tejas Networks */}
             <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300">
               <CardContent className="p-8">
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-2">Frontend Developer Intern</h3>
-                    <p className="text-purple-400 font-semibold text-lg mb-1">Stalcon Solutions</p>
-                    <p className="text-gray-400 mb-4">Hyderabad, India</p>
+                    <h3 className="text-2xl font-bold text-white mb-2">Research & Development Engineer</h3>
+                    <p className="text-purple-400 font-semibold text-lg mb-1">Tejas Networks</p>
+                    <p className="text-gray-400 mb-4">C++, Linux, Routing Protocols, CLI, Git</p>
                   </div>
                   <div className="flex items-center space-x-2 text-gray-300">
                     <Calendar className="w-5 h-5" />
-                    <span>06/2022 – 08/2022</span>
+                    <span>July 2022 – July 2023</span>
                   </div>
                 </div>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
-                    <span>Developed responsive UI pages to enhance the user experience.</span>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Utilized React.js and Tailwind CSS to create dynamic, visually appealing interfaces and integrated
-                      RESTful APIs for efficient data fetching.
+                      Implemented OSPF Database Limit (RFC 1765) and OSPF Sham Links (RFC 4577) in C++, enhancing Layer 3 routing stability, reducing control-plane overhead, and improving overall network performance.
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Conducted usability testing and optimized web performance, reducing load times by 30% and
-                      improving overall responsiveness.
+                      Developed and optimized system-level C++ modules on Linux, leveraging advanced data structures, multithreading, and debugging tools (GDB, Valgrind, tcpdump, Wireshark) to improve routing efficiency and protocol reliability.
+                    </span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      Configured, tested, and troubleshot routing behaviors using CLI-based network device operations, applying strong knowledge of OSPF, BGP, and MPLS L3VPN to validate routing tables, adjacency formation, and packet flows.
+                    </span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Infosoft Solutions */}
+            <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-white mb-2">Software Engineer</h3>
+                    <p className="text-purple-400 font-semibold text-lg mb-1">Infosoft Solutions</p>
+                    <p className="text-gray-400 mb-4">Java, JS, TS, SQL, Maven, Gradle, Agile</p>
+                  </div>
+                  <div className="flex items-center space-x-2 text-gray-300">
+                    <Calendar className="w-5 h-5" />
+                    <span>June 2021 – May 2022</span>
+                  </div>
+                </div>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      Developed back-end logic with Spring Boot APIs to implement a country-wide underwriting model to give policy quotes to over 500,000 potential customers, gaining the company an increase in revenue and sales.
+                    </span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      Engineered and executed load rebalancing strategies within Kafka, fostering 40% performance optimizations.
+                    </span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      Conducted a comprehensive review of test coverage in microservices, pinpointed gaps in test case scenarios, and added 250+ new test cases, resulting in a 50% decrease in production incidents.
+                    </span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      Utilized CI/CD tools, Sonar to increase overall code quality by 35%, Jenkins to reduce build time by 25%.
+                    </span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      Instituted database connectivity with JDBC and maintained SQL scripts to manage and manipulate relational databases, ensuring data accuracy and efficiency in software applications.
+                    </span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      Developed automated unit testing using JUnit in a Java environment, resulting in a 50% reduction in defects and a 30% increase in test coverage.
                     </span>
                   </li>
                 </ul>
