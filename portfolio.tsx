@@ -324,28 +324,34 @@ export default function Portfolio() {
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <div className="lg:col-span-2 space-y-6">
                   <p className="text-gray-300 text-lg leading-relaxed">
-                    A highly motivated Software Engineer with expertise in C/C++, Java, JavaScript, and full-stack
-                    development, passionate about AI, cloud technologies, and emerging tech innovations. Enthusiastic
-                    about building scalable AI systems and exploring multi-agent LLM platforms with hands-on experience
-                    in Python, LangChain, and OpenAI technologies.
+                    Software Engineer with over 4 years of experience designing and building scalable, high-performance
+                    applications using Java, Spring Boot, and cloud-native architectures. Experienced in developing
+                    secure RESTful microservices, implementing JWT-based authentication, and optimizing backend systems
+                    for reliability and performance.
+                  </p>
+                  <p className="text-gray-300 text-lg leading-relaxed">
+                    Strong full-stack background with hands-on expertise in React, Angular, JavaScript, and HTML/CSS.
+                    Proven experience deploying containerized applications using Docker and Kubernetes across AWS and
+                    Azure environments. Passionate about solving complex problems, improving system efficiency, and
+                    delivering production-ready solutions in Agile teams.
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-3">
-                      <h4 className="text-purple-400 font-semibold">Current Focus</h4>
+                      <h4 className="text-purple-400 font-semibold">Backend Expertise</h4>
                       <ul className="text-gray-300 space-y-1">
-                        <li>• AI & Machine Learning</li>
-                        <li>• Multi-agent LLM Systems</li>
-                        <li>• Cloud Technologies</li>
-                        <li>• Full-stack Development</li>
+                        <li>• Java & Spring Boot</li>
+                        <li>• RESTful Microservices</li>
+                        <li>• JWT Authentication</li>
+                        <li>• System Optimization</li>
                       </ul>
                     </div>
                     <div className="space-y-3">
-                      <h4 className="text-purple-400 font-semibold">Interests</h4>
+                      <h4 className="text-purple-400 font-semibold">Cloud & DevOps</h4>
                       <ul className="text-gray-300 space-y-1">
-                        <li>• Emerging Tech Innovations</li>
-                        <li>• Scalable System Design</li>
-                        <li>• Open Source Contribution</li>
-                        <li>• Tech Community Building</li>
+                        <li>• Docker & Kubernetes</li>
+                        <li>• AWS & Azure</li>
+                        <li>• Cloud-Native Architecture</li>
+                        <li>• Agile Development</li>
                       </ul>
                     </div>
                   </div>
