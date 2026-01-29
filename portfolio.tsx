@@ -402,21 +402,7 @@ export default function Portfolio() {
               </CardContent>
             </Card>
 
-            <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300">
-              <CardContent className="p-8">
-                <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
-                  <div>
-                    <h3 className="text-2xl font-bold text-white mb-2">Bachelor's of Technology (Computer Science)</h3>
-                    <p className="text-purple-400 font-semibold text-lg">Lovely Professional University</p>
-                    <p className="text-gray-400">Phagwara, India</p>
-                  </div>
-                  <div className="flex items-center space-x-2 text-gray-300 mt-4 lg:mt-0">
-                    <Calendar className="w-5 h-5" />
-                    <span>07/2020 – 06/2023</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+
           </div>
         </section>
 
