@@ -823,54 +823,7 @@ export default function Portfolio() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Protected Blog Post - Love at First Sight */}
-            <Card
-              className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 group cursor-pointer relative"
-              onClick={() => handleBlogClick("love-story", true)}
-            >
-              <CardContent className="p-6">
-                <div className="space-y-4">
-                  <div className="aspect-video bg-gradient-to-br from-pink-500/20 to-red-500/20 rounded-lg flex items-center justify-center relative">
-                    <Heart className="w-12 h-12 text-pink-400" />
-                    <div className="absolute top-2 right-2">
-                      <Lock className="w-4 h-4 text-pink-400" />
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="flex items-center space-x-2 text-sm text-gray-400">
-                      <Calendar className="w-4 h-4" />
-                      <span>Published on Medium</span>
-                      <Clock className="w-4 h-4 ml-2" />
-                      <span>3 min read</span>
-                    </div>
-                    <h3 className="text-xl font-bold text-white group-hover:text-purple-400 transition-colors flex items-center space-x-2">
-                      <span>Love at First Sight: Fairy Tails</span>
-                      <Lock className="w-4 h-4 text-pink-400" />
-                    </h3>
-                    <p className="text-gray-300 text-sm leading-relaxed">
-                      A personal story about love, dreams, and the beautiful moments that make life worth living. This
-                      is a protected post that requires a password to access.
-                    </p>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline" className="border-pink-500/30 text-pink-300 text-xs">
-                        Personal
-                      </Badge>
-                      <Badge variant="outline" className="border-red-500/30 text-red-300 text-xs">
-                        Love Story
-                      </Badge>
-                      <Badge variant="outline" className="border-purple-500/30 text-purple-300 text-xs">
-                        Protected
-                      </Badge>
-                    </div>
-                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-purple-400 transition-colors" />
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Blog Post 1 */}
+            {/* Blog Post 1 - AI Agents (Featured) */}
             <Card
               className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 group cursor-pointer"
               onClick={() => handleBlogClick("ai-agents")}
@@ -1102,6 +1055,53 @@ export default function Portfolio() {
                       </Badge>
                       <Badge variant="outline" className="border-purple-500/30 text-purple-300 text-xs">
                         AI
+                      </Badge>
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-purple-400 transition-colors" />
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Protected Blog Post - Love at First Sight (Personal - moved to end) */}
+            <Card
+              className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 group cursor-pointer relative"
+              onClick={() => handleBlogClick("love-story", true)}
+            >
+              <CardContent className="p-6">
+                <div className="space-y-4">
+                  <div className="aspect-video bg-gradient-to-br from-pink-500/20 to-red-500/20 rounded-lg flex items-center justify-center relative">
+                    <Heart className="w-12 h-12 text-pink-400" />
+                    <div className="absolute top-2 right-2">
+                      <Lock className="w-4 h-4 text-pink-400" />
+                    </div>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center space-x-2 text-sm text-gray-400">
+                      <Calendar className="w-4 h-4" />
+                      <span>Published on Medium</span>
+                      <Clock className="w-4 h-4 ml-2" />
+                      <span>3 min read</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-white group-hover:text-purple-400 transition-colors flex items-center space-x-2">
+                      <span>Love at First Sight: Fairy Tails</span>
+                      <Lock className="w-4 h-4 text-pink-400" />
+                    </h3>
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      A personal story about love, dreams, and the beautiful moments that make life worth living. This
+                      is a protected post that requires a password to access.
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="outline" className="border-pink-500/30 text-pink-300 text-xs">
+                        Personal
+                      </Badge>
+                      <Badge variant="outline" className="border-red-500/30 text-red-300 text-xs">
+                        Love Story
+                      </Badge>
+                      <Badge variant="outline" className="border-purple-500/30 text-purple-300 text-xs">
+                        Protected
                       </Badge>
                     </div>
                     <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-purple-400 transition-colors" />
