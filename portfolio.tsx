@@ -249,9 +249,7 @@ export default function Portfolio() {
                   I'm a <span className="text-purple-400 font-semibold">Software Engineer</span>
                 </p>
                 <p className="text-gray-400 text-lg max-w-2xl">
-                  Welcome to my portfolio. A highly motivated Software Engineer with expertise in AI, cloud
-                  technologies, and full-stack development, passionate about building scalable AI systems and exploring
-                  multi-agent LLM platforms.
+                  Software Engineer with 3+ years building high-performance backend systems in Java, C++, and AWS. I design microservices that handle scale, optimize systems for speed, and ship production code.
                 </p>
               </div>
             </div>
