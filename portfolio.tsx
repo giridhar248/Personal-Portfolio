@@ -394,7 +394,7 @@ export default function Portfolio() {
                   </div>
                   <div className="flex items-center space-x-2 text-gray-300 mt-4 lg:mt-0">
                     <Calendar className="w-5 h-5" />
-                    <span>08/2023 – 08/2025</span>
+                    <span>July 2023 - May 2025</span>
                   </div>
                 </div>
               </CardContent>
@@ -419,8 +419,8 @@ export default function Portfolio() {
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-2">Software Engineer</h3>
-                    <p className="text-purple-400 font-semibold text-lg mb-1">Java, Spring Boot, AWS, MySQL, Docker</p>
-                    <p className="text-gray-400 mb-4">May 2024 - Present</p>
+                    <p className="text-purple-400 font-semibold text-lg mb-1">Cigniti Technologies</p>
+                    <p className="text-gray-400 mb-4">Java, Spring Boot, AWS, MySQL, Docker</p>
                   </div>
                   <div className="flex items-center space-x-2 text-gray-300">
                     <Calendar className="w-5 h-5" />
@@ -904,46 +904,6 @@ export default function Portfolio() {
             {/* Blog Post 3 */}
             <Card
               className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 group cursor-pointer"
-              onClick={() => handleBlogClick("mobile-dev")}
-            >
-              <CardContent className="p-6">
-                <div className="space-y-4">
-                  <div className="aspect-video bg-gradient-to-br from-orange-500/20 to-red-500/20 rounded-lg flex items-center justify-center">
-                    <FolderOpen className="w-12 h-12 text-orange-400" />
-                  </div>
-                  <div className="space-y-2">
-                    <div className="flex items-center space-x-2 text-sm text-gray-400">
-                      <Calendar className="w-4 h-4" />
-                      <span>December 10, 2024</span>
-                      <Clock className="w-4 h-4 ml-2" />
-                      <span>4 min read</span>
-                    </div>
-                    <h3 className="text-xl font-bold text-white group-hover:text-purple-400 transition-colors">
-                      React Native vs Flutter: Building the TicketMaster App
-                    </h3>
-                    <p className="text-gray-300 text-sm leading-relaxed">
-                      A detailed comparison of mobile development frameworks based on my experience building an event
-                      discovery app with real-world APIs.
-                    </p>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline" className="border-orange-500/30 text-orange-300 text-xs">
-                        Mobile Dev
-                      </Badge>
-                      <Badge variant="outline" className="border-blue-500/30 text-blue-300 text-xs">
-                        React Native
-                      </Badge>
-                    </div>
-                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-purple-400 transition-colors" />
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Blog Post 4 */}
-            <Card
-              className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 group cursor-pointer"
               onClick={() => handleBlogClick("networking")}
             >
               <CardContent className="p-6">
@@ -1061,53 +1021,7 @@ export default function Portfolio() {
               </CardContent>
             </Card>
 
-            {/* Protected Blog Post - Love at First Sight (Personal - moved to end) */}
-            <Card
-              className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 group cursor-pointer relative"
-              onClick={() => handleBlogClick("love-story", true)}
-            >
-              <CardContent className="p-6">
-                <div className="space-y-4">
-                  <div className="aspect-video bg-gradient-to-br from-pink-500/20 to-red-500/20 rounded-lg flex items-center justify-center relative">
-                    <Heart className="w-12 h-12 text-pink-400" />
-                    <div className="absolute top-2 right-2">
-                      <Lock className="w-4 h-4 text-pink-400" />
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="flex items-center space-x-2 text-sm text-gray-400">
-                      <Calendar className="w-4 h-4" />
-                      <span>Published on Medium</span>
-                      <Clock className="w-4 h-4 ml-2" />
-                      <span>3 min read</span>
-                    </div>
-                    <h3 className="text-xl font-bold text-white group-hover:text-purple-400 transition-colors flex items-center space-x-2">
-                      <span>Love at First Sight: Fairy Tails</span>
-                      <Lock className="w-4 h-4 text-pink-400" />
-                    </h3>
-                    <p className="text-gray-300 text-sm leading-relaxed">
-                      A personal story about love, dreams, and the beautiful moments that make life worth living. This
-                      is a protected post that requires a password to access.
-                    </p>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline" className="border-pink-500/30 text-pink-300 text-xs">
-                        Personal
-                      </Badge>
-                      <Badge variant="outline" className="border-red-500/30 text-red-300 text-xs">
-                        Love Story
-                      </Badge>
-                      <Badge variant="outline" className="border-purple-500/30 text-purple-300 text-xs">
-                        Protected
-                      </Badge>
-                    </div>
-                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-purple-400 transition-colors" />
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
+            </div>
 
           {/* View All Blogs Button */}
           <div className="text-center mt-12">
@@ -1225,7 +1139,7 @@ export default function Portfolio() {
         <div className="max-w-7xl mx-auto px-6 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Giridhar Reddy Mekapotula. All rights reserved.
+              © {new Date().getFullYear()} Giridhar Reddy Mekapothula. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               {[
