@@ -733,6 +733,177 @@ export default function Portfolio() {
                 </div>
               </CardContent>
             </Card>
+
+            <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 group">
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <CardTitle className="text-xl text-white group-hover:text-purple-400 transition-colors">
+                    Distributed URL Shortener
+                  </CardTitle>
+                  <div className="flex space-x-2">
+                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-purple-400">
+                      <Github className="w-4 h-4" />
+                    </Button>
+                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-purple-400">
+                      <ExternalLink className="w-4 h-4" />
+                    </Button>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-2 text-gray-400 text-sm">
+                  <Calendar className="w-4 h-4" />
+                  <span>02/2025 – 04/2025</span>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="flex flex-wrap gap-2">
+                    {["Java", "Spring Boot", "Redis", "MySQL", "Docker", "Nginx"].map((tech) => (
+                      <Badge key={tech} variant="outline" className="border-green-500/30 text-green-300">
+                        {tech}
+                      </Badge>
+                    ))}
+                  </div>
+                  <ul className="space-y-2 text-gray-300 text-sm">
+                    <li className="flex items-start space-x-2">
+                      <div className="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span>
+                        Designed and built a high-throughput URL shortening service handling 10K+ requests/minute using
+                        Spring Boot, with Redis caching reducing redirect latency to sub-5ms and MySQL for persistent
+                        storage.
+                      </span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <div className="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span>
+                        Implemented consistent hashing for distributed key generation across multiple service instances,
+                        ensuring zero collisions and horizontal scalability behind an Nginx load balancer.
+                      </span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <div className="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span>
+                        Containerized the full stack with Docker Compose (API server, Redis, MySQL, Nginx) and deployed
+                        with health checks, achieving 99.9% uptime under sustained load testing with JMeter.
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 group">
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <CardTitle className="text-xl text-white group-hover:text-purple-400 transition-colors">
+                    AI Agents for Medical Diagnostics
+                  </CardTitle>
+                  <div className="flex space-x-2">
+                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-purple-400">
+                      <Github className="w-4 h-4" />
+                    </Button>
+                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-purple-400">
+                      <ExternalLink className="w-4 h-4" />
+                    </Button>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-2 text-gray-400 text-sm">
+                  <Calendar className="w-4 h-4" />
+                  <span>01/2025 – 03/2025</span>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="flex flex-wrap gap-2">
+                    {["Python", "GPT-4o", "Kubernetes", "Docker"].map((tech) => (
+                      <Badge key={tech} variant="outline" className="border-purple-500/30 text-purple-300">
+                        {tech}
+                      </Badge>
+                    ))}
+                  </div>
+                  <ul className="space-y-2 text-gray-300 text-sm">
+                    <li className="flex items-start space-x-2">
+                      <div className="w-1.5 h-1.5 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span>
+                        Architected a multi-agent AI diagnostic system using GPT-4o and Python, leveraging multithreading
+                        to process patient data 15% faster across 5 specialized medical analysis agents.
+                      </span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <div className="w-1.5 h-1.5 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span>
+                        Optimized inter-agent communication and data processing pipelines, reducing end-to-end
+                        diagnostic response time by 30% for real-time clinical analysis.
+                      </span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <div className="w-1.5 h-1.5 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span>
+                        Deployed with Kubernetes orchestration and automated CI/CD pipelines, reducing deployment errors
+                        by 60% and enabling 2x faster release cycles.
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 group">
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <CardTitle className="text-xl text-white group-hover:text-purple-400 transition-colors">
+                    Elastic Cloud Image Recognition Service
+                  </CardTitle>
+                  <div className="flex space-x-2">
+                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-purple-400">
+                      <Github className="w-4 h-4" />
+                    </Button>
+                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-purple-400">
+                      <ExternalLink className="w-4 h-4" />
+                    </Button>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-2 text-gray-400 text-sm">
+                  <Calendar className="w-4 h-4" />
+                  <span>10/2024 – 12/2024</span>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="flex flex-wrap gap-2">
+                    {["Python", "Node.js", "AWS EC2", "SQS", "S3", "CloudWatch"].map((tech) => (
+                      <Badge key={tech} variant="outline" className="border-blue-500/30 text-blue-300">
+                        {tech}
+                      </Badge>
+                    ))}
+                  </div>
+                  <ul className="space-y-2 text-gray-300 text-sm">
+                    <li className="flex items-start space-x-2">
+                      <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span>
+                        Designed and deployed a cloud-native image classification service on AWS, processing 100+
+                        concurrent requests using SQS message queuing and auto-scaling EC2 instances running a
+                        pre-trained deep learning model.
+                      </span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span>
+                        Built a Node.js web tier handling image uploads and async job tracking, with Python-based
+                        inference workers consuming from SQS and storing results in S3, achieving sub-3 second end-to-end
+                        processing time.
+                      </span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span>
+                        Implemented auto-scaling policies using CloudWatch metrics, dynamically spinning up EC2 instances
+                        under load and scaling down to zero during idle, reducing compute costs by 60%.
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </section>
 
