@@ -246,10 +246,10 @@ export default function Portfolio() {
               </h1>
               <div className="text-xl lg:text-2xl text-gray-300 space-y-2">
                 <p>
-                  I'm a <span className="text-purple-400 font-semibold">Backend Software Engineer</span>
+                  I'm a <span className="text-purple-400 font-semibold">Software Engineer</span>
                 </p>
                 <p className="text-gray-400 text-lg max-w-2xl">
-                  Backend Software Engineer with 3+ years building scalable microservices and RESTful APIs for
+                  Software Engineer with 3+ years building scalable microservices and RESTful APIs for
                   enterprise fintech at PayPal and J.P. Morgan. I ship reliable 0-to-1 backend systems and AI/LLM-powered
                   automation that reduce manual effort and improve performance. AWS Certified Solutions Architect.
                 </p>
@@ -324,7 +324,7 @@ export default function Portfolio() {
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <div className="lg:col-span-2 space-y-6">
                   <p className="text-gray-300 text-lg leading-relaxed">
-                    Backend Software Engineer with 3+ years building scalable microservices and RESTful APIs for
+                    Software Engineer with 3+ years building scalable microservices and RESTful APIs for
                     enterprise fintech at PayPal and J.P. Morgan. Focused on shipping reliable 0-to-1 backend systems and
                     AI/LLM-powered automation that reduce manual effort and improve performance.
                   </p>
