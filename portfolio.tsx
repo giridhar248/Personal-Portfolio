@@ -197,7 +197,7 @@ export default function Portfolio() {
                 <span className="text-white font-bold text-sm">G</span>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-                Giridhar Reddy
+                Giridhar M
               </span>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -246,10 +246,12 @@ export default function Portfolio() {
               </h1>
               <div className="text-xl lg:text-2xl text-gray-300 space-y-2">
                 <p>
-                  I'm a <span className="text-purple-400 font-semibold">Software Engineer</span>
+                  I'm a <span className="text-purple-400 font-semibold">Backend Software Engineer</span>
                 </p>
                 <p className="text-gray-400 text-lg max-w-2xl">
-                  Software Engineer with 3+ years building high-performance backend systems in Java, C++, and AWS. I design microservices that handle scale, optimize systems for speed, and ship production code.
+                  Backend Software Engineer with 3+ years building scalable microservices and RESTful APIs for
+                  enterprise fintech at PayPal and J.P. Morgan. I ship reliable 0-to-1 backend systems and AI/LLM-powered
+                  automation that reduce manual effort and improve performance. AWS Certified Solutions Architect.
                 </p>
               </div>
             </div>
@@ -272,20 +274,20 @@ export default function Portfolio() {
             </div>
             <div className="flex space-x-6">
               <Link
-                href="mailto:giridharreddy2212@gmail.com"
+                href="mailto:giridharswe12@gmail.com"
                 className="text-gray-400 hover:text-purple-400 transition-colors duration-300"
               >
                 <Mail className="w-6 h-6" />
               </Link>
               <Link
-                href="https://linkedin.com/in/giridhar-reddy-46759b210"
+                href="https://linkedin.com/in/giridharswe"
                 target="_blank"
                 className="text-gray-400 hover:text-purple-400 transition-colors duration-300"
               >
                 <Linkedin className="w-6 h-6" />
               </Link>
               <Link
-                href="https://github.com/giridhar248"
+                href="https://github.com/giridharswe"
                 target="_blank"
                 className="text-gray-400 hover:text-purple-400 transition-colors duration-300"
               >
@@ -297,7 +299,7 @@ export default function Portfolio() {
             <div className="relative z-10">
               <Image
                 src="/2.jpg"
-                alt="Giridhar Reddy Profile Picture"
+                alt="Giridhar M Profile Picture"
                 width={400}
                 height={500}
                 className="rounded-2xl shadow-2xl object-cover w-full max-w-md mx-auto"
@@ -322,34 +324,32 @@ export default function Portfolio() {
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <div className="lg:col-span-2 space-y-6">
                   <p className="text-gray-300 text-lg leading-relaxed">
-                    Software Engineer with 3+ years of experience designing and building scalable, high-performance
-                    applications using Java, Spring Boot, and cloud-native architectures. Experienced in developing
-                    secure RESTful microservices, implementing JWT-based authentication, and optimizing backend systems
-                    for reliability and performance.
+                    Backend Software Engineer with 3+ years building scalable microservices and RESTful APIs for
+                    enterprise fintech at PayPal and J.P. Morgan. Focused on shipping reliable 0-to-1 backend systems and
+                    AI/LLM-powered automation that reduce manual effort and improve performance.
                   </p>
                   <p className="text-gray-300 text-lg leading-relaxed">
-                    Strong full-stack background with hands-on expertise in React, Angular, JavaScript, and HTML/CSS.
-                    Proven experience deploying containerized applications using Docker and Kubernetes across AWS and
-                    Azure environments. Passionate about solving complex problems, improving system efficiency, and
-                    delivering production-ready solutions in Agile teams.
+                    AWS Certified Solutions Architect skilled in Java, Spring Boot, Python, distributed systems, and
+                    system design. Experienced building secure, high-throughput services, integrating LLM APIs, and
+                    delivering production-ready solutions across cloud-native environments in Agile teams.
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-3">
                       <h4 className="text-purple-400 font-semibold">Backend Expertise</h4>
                       <ul className="text-gray-300 space-y-1">
-                        <li>• Java & Spring Boot</li>
+                        <li>• Java, Spring Boot & Python</li>
                         <li>• RESTful Microservices</li>
-                        <li>• JWT Authentication</li>
-                        <li>• System Optimization</li>
+                        <li>• Distributed Systems & System Design</li>
+                        <li>• AI/LLM Automation</li>
                       </ul>
                     </div>
                     <div className="space-y-3">
                       <h4 className="text-purple-400 font-semibold">Cloud & DevOps</h4>
                       <ul className="text-gray-300 space-y-1">
+                        <li>• AWS (Certified Solutions Architect)</li>
                         <li>• Docker & Kubernetes</li>
-                        <li>• AWS & Azure</li>
-                        <li>• Cloud-Native Architecture</li>
-                        <li>• Agile Development</li>
+                        <li>• Kafka & Event-Driven Architecture</li>
+                        <li>• CI/CD & Agile Development</li>
                       </ul>
                     </div>
                   </div>
@@ -358,15 +358,15 @@ export default function Portfolio() {
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3">
                       <Mail className="w-5 h-5 text-purple-400" />
-                      <span className="text-gray-300">giridharreddy2212@gmail.com</span>
+                      <span className="text-gray-300">giridharswe12@gmail.com</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Phone className="w-5 h-5 text-purple-400" />
-                      <span className="text-gray-300">+1 409 757 0402</span>
+                      <span className="text-gray-300">(409) 219-4463</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <MapPin className="w-5 h-5 text-purple-400" />
-                      <span className="text-gray-300">Houston, USA</span>
+                      <span className="text-gray-300">Austin, TX</span>
                     </div>
                   </div>
                 </div>
@@ -390,17 +390,42 @@ export default function Portfolio() {
                   <div>
                     <h3 className="text-2xl font-bold text-white mb-2">M.S. Computer Science</h3>
                     <p className="text-purple-400 font-semibold text-lg">Lamar University</p>
-                    <p className="text-gray-400">Houston, USA</p>
+                    <p className="text-gray-400">Beaumont, TX · GPA: 4.0</p>
                   </div>
                   <div className="flex items-center space-x-2 text-gray-300 mt-4 lg:mt-0">
                     <Calendar className="w-5 h-5" />
                     <span>July 2023 - May 2025</span>
                   </div>
                 </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
+                  Relevant Coursework: Data Structures & Algorithms, Operating Systems, Distributed Systems, Database
+                  Systems, Computer Networks
+                </p>
               </CardContent>
             </Card>
 
-
+            <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300">
+              <CardContent className="p-8">
+                <h3 className="text-xl font-bold text-white mb-6">Awards & Certifications</h3>
+                <ul className="space-y-4 text-gray-300">
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      <span className="text-white font-semibold">Outstanding Graduate Student Award</span> — Lamar
+                      University (May 2025). Awarded for academic excellence (4.0 GPA) and graduate teaching
+                      assistantship contributions.
+                    </span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <span>
+                      <span className="text-white font-semibold">AWS Certified Solutions Architect – Associate</span>{" "}
+                      (Jul 2023).
+                    </span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
           </div>
         </section>
 
@@ -419,135 +444,86 @@ export default function Portfolio() {
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-2">Software Engineer</h3>
-                    <p className="text-purple-400 font-semibold text-lg mb-1">Cigniti Technologies</p>
-                    <p className="text-gray-400 mb-4">Java, Spring Boot, AWS, MySQL, Docker</p>
+                    <p className="text-purple-400 font-semibold text-lg mb-1">PayPal</p>
+                    <p className="text-gray-400 mb-4">Python, AWS, MCP, Agentic AI, Microservices</p>
                   </div>
                   <div className="flex items-center space-x-2 text-gray-300">
                     <Calendar className="w-5 h-5" />
-                    <span>May 2024 – Present</span>
+                    <span>Jan 2025 – Present</span>
                   </div>
                 </div>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Designed and deployed 5+ Spring Boot microservices handling 10K+ daily vendor transactions, implementing RESTful APIs with Spring Security and JWT-based authentication for role-based access control.
+                      Engineered scalable backend services using Python and AWS for regulatory compliance systems, reducing maintenance effort by 40% and improving service reliability.
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Built responsive frontend components in React and Angular 8, reducing manual vendor workflows by 50% and improving page load performance by 30%.
+                      Led design and delivery of reusable Python and AWS backend service libraries for PayPal/Venmo, adopted across 5 product teams and validated through comprehensive unit and integration testing.
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Optimized frontend-backend communication using React Hooks and Axios, reducing API response handling time by 25% across 8+ microservice endpoints.
+                      Built and deployed Model Context Protocol (MCP) servers powering end-to-end agentic AI workflows, automating manual engineering tasks and eliminating approximately 10 hours/week of repetitive work.
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Engineered scalable backend architecture on AWS (DynamoDB, SQS, Lambda), optimized MySQL indexing and JDBC queries, reducing API latency by 40% and increasing throughput by 2x across distributed services.
+                      Developed a self-service merchant auto-withdrawal configuration tool for Account Managers and Sales, slashing request turnaround from approximately 6 hours to under 1 minute.
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Containerized and deployed microservices using Docker, AWS ECS, and Azure AKS, building automated CI/CD pipelines with Jenkins that reduced deployment time by 60% and increased test coverage to 85% via JUnit/Mockito TDD.
+                      Delivered a self-service utility for the CSM team on PayPal Automatic Transfers, reducing inbound queries to the Product Development team by 80%.
                     </span>
                   </li>
                 </ul>
               </CardContent>
             </Card>
 
-            {/* Tejas Networks */}
-            <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300">
-              <CardContent className="p-8">
-                <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-2">Research & Development Engineer</h3>
-                    <p className="text-purple-400 font-semibold text-lg mb-1">Tejas Networks</p>
-                    <p className="text-gray-400 mb-4">C++, Linux, Routing Protocols, CLI, Git</p>
-                  </div>
-                  <div className="flex items-center space-x-2 text-gray-300">
-                    <Calendar className="w-5 h-5" />
-                    <span>July 2022 – July 2023</span>
-                  </div>
-                </div>
-                <ul className="space-y-3 text-gray-300">
-                  <li className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
-                    <span>
-                      Implemented OSPF RFC 1765 (Database Limit) and RFC 4577 (Sham Links) in C++, reducing control-plane overhead by 30% and improving Layer 3 routing convergence time across 200+ network nodes.
-                    </span>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
-                    <span>
-                      Developed high-performance C++ modules on Linux using multithreading and optimized data structures, profiling with GDB and Valgrind to eliminate memory leaks and reduce CPU utilization by 20%.
-                    </span>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
-                    <span>
-                      Validated and debugged OSPF, BGP, and MPLS L3VPN routing across production environments using tcpdump, Wireshark, and CLI-based device operations, identifying and resolving 50+ protocol-level defects before release.
-                    </span>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
-                    <span>
-                      Wrote 1,500+ lines of production C++ code adhering to strict coding standards, participating in peer code reviews and reducing post-release bugs by 35%.
-                    </span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            {/* Infosoft Solutions */}
+            {/* J.P. Morgan */}
             <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300">
               <CardContent className="p-8">
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-2">Software Engineer</h3>
-                    <p className="text-purple-400 font-semibold text-lg mb-1">Infosoft Solutions</p>
-                    <p className="text-gray-400 mb-4">Java, JS, TS, SQL, Maven, Gradle, Agile</p>
+                    <p className="text-purple-400 font-semibold text-lg mb-1">J.P. Morgan</p>
+                    <p className="text-gray-400 mb-4">Java, Spring Boot, Kafka, LLM APIs, Cloud Migration</p>
                   </div>
                   <div className="flex items-center space-x-2 text-gray-300">
                     <Calendar className="w-5 h-5" />
-                    <span>June 2021 – May 2022</span>
+                    <span>Sep 2021 – Jun 2023</span>
                   </div>
                 </div>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Built Spring Boot REST APIs powering a country-wide insurance underwriting platform serving 500K+ customers, directly contributing to a 15% increase in policy conversion and revenue growth.
+                      Architected middleware for the Asset Management Sales Experience Platform, creating a single authoritative database for 1M+ annual sales, lead, and client records across integrated enterprise applications.
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Rebalanced Kafka consumer partitions and optimized message throughput, achieving 40% performance improvement across 12+ microservices processing 50K+ events/day.
+                      Integrated LLM APIs to automate client-conversation transcription and activity logging, saving advisors 300+ hours annually and improving post-interaction efficiency.
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Configured Jenkins CI/CD pipelines and integrated SonarQube static analysis, improving code quality scores by 35% and reducing build times from 20 minutes to 15 minutes.
+                      Engineered secure Spring Boot microservices processing 2M+ Kafka events/day with end-to-end cryptography, and led on-premises to cloud data migration (authored a published white paper).
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Optimized MySQL queries and JDBC connection pooling, reducing average query execution time by 30% across 10+ production database tables handling 1M+ records.
-                    </span>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
-                    <span>
-                      Collaborated with a cross-functional team of 6 engineers in Agile sprints, owning end-to-end delivery of 3 backend microservices from design through production deployment.
+                      Won 2nd place among 100+ teams at the 2022 JPMC Global Hackathon and 2nd among 90+ teams in 2021 for engineering innovation.
                     </span>
                   </li>
                 </ul>
@@ -590,7 +566,7 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {["MySQL", "MongoDB", "DynamoDB", "Redis"].map((skill) => (
+                  {["MySQL", "PostgreSQL", "MongoDB", "DynamoDB", "Redis"].map((skill) => (
                     <Badge key={skill} variant="secondary" className="bg-blue-500/20 text-blue-300 border-blue-500/30">
                       {skill}
                     </Badge>
@@ -601,11 +577,11 @@ export default function Portfolio() {
 
             <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300">
               <CardHeader>
-                <CardTitle className="text-purple-400 text-lg">Web Development</CardTitle>
+                <CardTitle className="text-purple-400 text-lg">Frameworks & Libraries</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {["Spring Boot", "React.js", "Angular", "Node.js", "Express.js", "Next.js", "Kafka"].map((skill) => (
+                  {["Spring Boot", "React.js", "Angular", "Node.js", "Express.js", "Next.js", "FastAPI", "Kafka", "JUnit", "Mockito"].map((skill) => (
                     <Badge
                       key={skill}
                       variant="secondary"
@@ -624,7 +600,7 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {["AWS", "Azure", "Docker", "Kubernetes", "Jenkins", "CI/CD", "Git"].map((skill) => (
+                  {["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Jenkins", "CI/CD", "Git"].map((skill) => (
                     <Badge
                       key={skill}
                       variant="secondary"
@@ -652,7 +628,7 @@ export default function Portfolio() {
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <CardTitle className="text-xl text-white group-hover:text-purple-400 transition-colors">
-                    AI-Agents-for-Medical-Diagnostics
+                    AuraNow – AI-Powered Social Media Analytics
                   </CardTitle>
                   <div className="flex space-x-2">
                     <Button variant="ghost" size="sm" className="text-gray-400 hover:text-purple-400">
@@ -665,13 +641,13 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center space-x-2 text-gray-400 text-sm">
                   <Calendar className="w-4 h-4" />
-                  <span>01/2025 – 03/2025</span>
+                  <span>02/2025</span>
                 </div>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex flex-wrap gap-2">
-                    {["Python", "GPT-4o", "Generative AI", "Prompt Engineering"].map((tech) => (
+                    {["Python", "FastAPI", "Redis", "MongoDB", "Docker", "NLP/ML", "UMAP", "HDBSCAN"].map((tech) => (
                       <Badge key={tech} variant="outline" className="border-purple-500/30 text-purple-300">
                         {tech}
                       </Badge>
@@ -681,15 +657,24 @@ export default function Portfolio() {
                     <li className="flex items-start space-x-2">
                       <div className="w-1.5 h-1.5 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                       <span>
-                        Built multi-agent AI diagnostic system with specialized GPT-4o agents (Cardiologist,
-                        Psychologist, Pulmonologist) for comprehensive medical case analysis
+                        Architected a microservices-based analytics platform with decoupled FastAPI REST services and
+                        background workers, using Redis queues for asynchronous job processing and MongoDB for
+                        persistent analytics, enabling horizontal scalability and fault isolation.
                       </span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <div className="w-1.5 h-1.5 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                       <span>
-                        Developed intelligent synthesis module combining multi-specialty AI insights to generate unified
-                        diagnostic summaries and identify top 3 potential health issues per patient
+                        Containerized the full stack (API, worker, Redis, MongoDB) with Docker and Docker Compose, adding
+                        service health checks for reproducible, one-command deployments.
+                      </span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <div className="w-1.5 h-1.5 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span>
+                        Engineered an end-to-end NLP/ML pipeline ingesting YouTube comments with embeddings, UMAP
+                        dimensionality reduction, HDBSCAN clustering, and RAPTOR-style hierarchical summarization for
+                        fast, context-aware insight retrieval.
                       </span>
                     </li>
                   </ul>
@@ -701,7 +686,7 @@ export default function Portfolio() {
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <CardTitle className="text-xl text-white group-hover:text-purple-400 transition-colors">
-                    Elastic Cloud Image Recognition Service
+                    Multi-Agent NL2SQL System (RAG)
                   </CardTitle>
                   <div className="flex space-x-2">
                     <Button variant="ghost" size="sm" className="text-gray-400 hover:text-purple-400">
@@ -714,13 +699,13 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center space-x-2 text-gray-400 text-sm">
                   <Calendar className="w-4 h-4" />
-                  <span>10/2024 – 12/2024</span>
+                  <span>12/2024</span>
                 </div>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex flex-wrap gap-2">
-                    {["Python", "Node.js", "AWS EC2", "SQS", "S3", "CloudWatch"].map(
+                    {["Advanced RAG", "PostgreSQL Vector", "Chain-of-Thought", "Azure OpenAI", "BERT", "Semantic Search"].map(
                       (tech) => (
                         <Badge key={tech} variant="outline" className="border-blue-500/30 text-blue-300">
                           {tech}
@@ -732,74 +717,16 @@ export default function Portfolio() {
                     <li className="flex items-start space-x-2">
                       <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                       <span>
-                        Designed and deployed a cloud-native image classification service on AWS, processing 100+ concurrent requests using SQS message queuing and auto-scaling EC2 instances running a pre-trained deep learning model.
+                        Architected a multi-agent NL-to-SQL system (RAG + LLMs) converting natural language into
+                        executable SQL via a query-enhancement, schema-retrieval, table-selection, column-pruning, and
+                        generation pipeline.
                       </span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                       <span>
-                        Built a Node.js web tier handling image uploads and async job tracking, with Python-based inference workers consuming from SQS and storing results in S3, achieving sub-3 second end-to-end processing time.
-                      </span>
-                    </li>
-                    <li className="flex items-start space-x-2">
-                      <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                      <span>
-                        Implemented auto-scaling policies using CloudWatch metrics, dynamically spinning up EC2 instances under load and scaling down to zero during idle, reducing compute costs by 60%.
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 group">
-              <CardHeader>
-                <div className="flex items-center justify-between">
-                  <CardTitle className="text-xl text-white group-hover:text-purple-400 transition-colors">
-                    Distributed URL Shortener
-                  </CardTitle>
-                  <div className="flex space-x-2">
-                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-purple-400">
-                      <Github className="w-4 h-4" />
-                    </Button>
-                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-purple-400">
-                      <ExternalLink className="w-4 h-4" />
-                    </Button>
-                  </div>
-                </div>
-                <div className="flex items-center space-x-2 text-gray-400 text-sm">
-                  <Calendar className="w-4 h-4" />
-                  <span>02/2025 – 04/2025</span>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-4">
-                  <div className="flex flex-wrap gap-2">
-                    {["Java", "Spring Boot", "Redis", "MySQL", "Docker", "Nginx"].map(
-                      (tech) => (
-                        <Badge key={tech} variant="outline" className="border-green-500/30 text-green-300">
-                          {tech}
-                        </Badge>
-                      ),
-                    )}
-                  </div>
-                  <ul className="space-y-2 text-gray-300 text-sm">
-                    <li className="flex items-start space-x-2">
-                      <div className="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
-                      <span>
-                        Designed and built a high-throughput URL shortening service handling 10K+ requests/minute using Spring Boot, with Redis caching reducing redirect latency to sub-5ms and MySQL for persistent storage.
-                      </span>
-                    </li>
-                    <li className="flex items-start space-x-2">
-                      <div className="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
-                      <span>
-                        Implemented consistent hashing for distributed key generation across multiple service instances, ensuring zero collisions and horizontal scalability behind an Nginx load balancer.
-                      </span>
-                    </li>
-                    <li className="flex items-start space-x-2">
-                      <div className="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
-                      <span>
-                        Containerized the full stack with Docker Compose (API server, Redis, MySQL, Nginx) and deployed with health checks, achieving 99.9% uptime under sustained load testing with JMeter.
+                        Fine-tuned a BERT classifier (90% recall) over a vector-retrieval layer for table selection,
+                        reducing latency from 18s (GPU) to 0.28s (CPU) while improving accuracy.
                       </span>
                     </li>
                   </ul>
@@ -842,8 +769,8 @@ export default function Portfolio() {
                       Building Multi-Agent AI Systems: Lessons Learned
                     </h3>
                     <p className="text-gray-300 text-sm leading-relaxed">
-                      Exploring the challenges and breakthroughs in developing AI agents that work together to solve
-                      complex medical diagnostic problems.
+                      Exploring the challenges and breakthroughs in building a RAG-powered multi-agent NL2SQL pipeline
+                      that turns natural language into executable SQL.
                     </p>
                   </div>
                   <div className="flex items-center justify-between">
@@ -919,20 +846,20 @@ export default function Portfolio() {
                       <span>6 min read</span>
                     </div>
                     <h3 className="text-xl font-bold text-white group-hover:text-purple-400 transition-colors">
-                      Optimizing Network Protocols: My Experience with OSPF at TejasNetworks
+                      Processing 2M+ Kafka Events a Day: Scaling Event-Driven Microservices
                     </h3>
                     <p className="text-gray-300 text-sm leading-relaxed">
-                      Deep dive into implementing OSPF Database Limit and Sham Links in C++, and how it improved network
-                      efficiency by 25%.
+                      How I engineered secure, high-throughput Spring Boot microservices at J.P. Morgan and the
+                      trade-offs of event-driven architecture at scale.
                     </p>
                   </div>
                   <div className="flex items-center justify-between">
                     <div className="flex flex-wrap gap-2">
                       <Badge variant="outline" className="border-blue-500/30 text-blue-300 text-xs">
-                        Networking
+                        Kafka
                       </Badge>
                       <Badge variant="outline" className="border-purple-500/30 text-purple-300 text-xs">
-                        C++
+                        Microservices
                       </Badge>
                     </div>
                     <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-purple-400 transition-colors" />
@@ -999,20 +926,20 @@ export default function Portfolio() {
                       <span>5 min read</span>
                     </div>
                     <h3 className="text-xl font-bold text-white group-hover:text-purple-400 transition-colors">
-                      The Future of AI in Healthcare: Beyond Diagnostics
+                      Automating Engineering Workflows with MCP Servers and Agentic AI
                     </h3>
                     <p className="text-gray-300 text-sm leading-relaxed">
-                      Exploring how AI will transform healthcare beyond just diagnostics, including personalized
-                      treatment and preventive care.
+                      How I built Model Context Protocol servers powering end-to-end agentic AI workflows that eliminated
+                      ~10 hours/week of repetitive engineering work.
                     </p>
                   </div>
                   <div className="flex items-center justify-between">
                     <div className="flex flex-wrap gap-2">
                       <Badge variant="outline" className="border-yellow-500/30 text-yellow-300 text-xs">
-                        Healthcare
+                        Agentic AI
                       </Badge>
                       <Badge variant="outline" className="border-purple-500/30 text-purple-300 text-xs">
-                        AI
+                        MCP
                       </Badge>
                     </div>
                     <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-purple-400 transition-colors" />
@@ -1053,7 +980,7 @@ export default function Portfolio() {
                     </div>
                     <div>
                       <h4 className="text-white font-semibold">Email</h4>
-                      <p className="text-gray-400">giridharreddy2212@gmail.com</p>
+                      <p className="text-gray-400">giridharswe12@gmail.com</p>
                     </div>
                   </div>
                 </CardContent>
@@ -1067,7 +994,7 @@ export default function Portfolio() {
                     </div>
                     <div>
                       <h4 className="text-white font-semibold">Phone</h4>
-                      <p className="text-gray-400">+1 409 757 0402</p>
+                      <p className="text-gray-400">(409) 219-4463</p>
                     </div>
                   </div>
                 </CardContent>
@@ -1081,7 +1008,7 @@ export default function Portfolio() {
                     </div>
                     <div>
                       <h4 className="text-white font-semibold">Location</h4>
-                      <p className="text-gray-400">Houston, USA</p>
+                      <p className="text-gray-400">Austin, TX</p>
                     </div>
                   </div>
                 </CardContent>
@@ -1093,20 +1020,20 @@ export default function Portfolio() {
                 <h3 className="text-2xl font-bold text-white mb-6">Let's Connect</h3>
                 <div className="flex justify-center space-x-6">
                   <Link
-                    href="mailto:giridharreddy2212@gmail.com"
+                    href="mailto:giridharswe12@gmail.com"
                     className="w-12 h-12 bg-slate-700 hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110"
                   >
                     <Mail className="w-6 h-6 text-white" />
                   </Link>
                   <Link
-                    href="https://linkedin.com/in/giridhar-reddy-46759b210"
+                    href="https://linkedin.com/in/giridharswe"
                     target="_blank"
                     className="w-12 h-12 bg-slate-700 hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110"
                   >
                     <Linkedin className="w-6 h-6 text-white" />
                   </Link>
                   <Link
-                    href="https://github.com/giridhar248"
+                    href="https://github.com/giridharswe"
                     target="_blank"
                     className="w-12 h-12 bg-slate-700 hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110"
                   >
@@ -1125,7 +1052,7 @@ export default function Portfolio() {
                     asChild
                     className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105"
                   >
-                    <Link href="mailto:giridharreddy2212@gmail.com">Send Message</Link>
+                    <Link href="mailto:giridharswe12@gmail.com">Send Message</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -1139,7 +1066,7 @@ export default function Portfolio() {
         <div className="max-w-7xl mx-auto px-6 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Giridhar Reddy Mekapothula. All rights reserved.
+              © {new Date().getFullYear()} Giridhar M. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               {[
